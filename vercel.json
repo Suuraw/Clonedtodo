@@ -8,16 +8,8 @@
   ],
   "routes": [
     {
-      "src": "/api/(.*)",
-      "dest": "/api/server.js"
-    },
-    {
-      "src": "/feedback/:id",
-      "dest": "/api/feedback/:id"
-    },
-    {
       "src": "/(.*)",
-      "dest": "/$1"
+      "dest": "/api/server.js"
     }
   ]
 }
